@@ -17,14 +17,16 @@
     </div>
   </div>
   <div id="navigation">
-    <p><strong>Products and Versions Here</strong></p>
+    <p><strong>Products</strong></p>
     <ul>
       <li><button onclick="show_CE()" >Gluu Server CE</button></li>
       <li><button onclick="show_oxd()" >oxd</button></li>
     </ul>
+	<p id="myver"></p>
 	<p><a id="myAnchor" href="https://zamilskhan.github.io/docs-new"></a></p>   
-	    <p><a id="myAnchor1" href="https://zamilskhan.github.io/docs-new"></a></p>   
+	<p><a id="myAnchor1" href="https://zamilskhan.github.io/docs-new"></a></p>   
 	    <script>  function show_CE() {  
+			    document.getElementById("myver").innerHTML = "Versions";
 			    y = document.getElementById("myAnchor").innerHTML="2.4.4";  
 			    var x = document.getElementById("myAnchor").href;
 			    y = document.getElementById("myAnchor1").innerHTML="2.4.3";         
